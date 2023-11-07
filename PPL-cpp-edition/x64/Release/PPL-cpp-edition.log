@@ -1,0 +1,9 @@
+﻿  LexerExceptions.cpp
+C:\Users\User\Desktop\C++\programming language\PPL-cpp-edition\PPL-cpp-edition\src\parser\exceptions\LexerExceptions.cpp(16,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\Desktop\C++\programming language\PPL-cpp-edition\PPL-cpp-edition\src\parser\exceptions\LexerExceptions.cpp(19,23): warning C4018: <: несоответствие типов со знаком и без знака
+  Создание кода
+  10 of 567 functions ( 1.8%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    37 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  PPL-cpp-edition.vcxproj -> C:\Users\User\Desktop\C++\programming language\PPL-cpp-edition\x64\Release\PPL-cpp-edition.exe
