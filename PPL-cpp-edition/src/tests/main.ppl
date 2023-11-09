@@ -5,9 +5,16 @@ using namespace std;
 
 void main() {
     public int a = 0x101;
+    char b = ';
 	println("Hello" + ", World!");
 }
 
+class Main {
+	void main() {
+		public int a = 10;
+		println("Hello" + ", World!");
+	}
+}
 
 // »ли же
 /*

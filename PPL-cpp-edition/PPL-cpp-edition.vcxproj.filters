@@ -5,49 +5,62 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="Файлы заголовков">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    <Filter Include="Исходные файлы\lexer">
+      <UniqueIdentifier>{e9f31f8c-a77c-49b2-9be7-eac2fb3f9fc5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Файлы ресурсов">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="Исходные файлы\AST">
+      <UniqueIdentifier>{db037453-0c0d-4e5b-bed1-75a013135cee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\exceptions">
+      <UniqueIdentifier>{e2b304f2-c165-4f99-a2b6-f42fc126651d}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="src\parser\exceptions\LexerExceptions.cpp">
-      <Filter>Исходные файлы</Filter>
+    <ClCompile Include="src\lexer\Lexer.cpp">
+      <Filter>Исходные файлы\lexer</Filter>
     </ClCompile>
-    <ClCompile Include="src\parser\Lexer.cpp">
-      <Filter>Исходные файлы</Filter>
+    <ClCompile Include="src\exceptions\Error.cpp">
+      <Filter>Исходные файлы\exceptions</Filter>
     </ClCompile>
-    <ClCompile Include="src\parser\exceptions\Error.cpp">
-      <Filter>Исходные файлы</Filter>
+    <ClCompile Include="src\exceptions\LexerExceptions.cpp">
+      <Filter>Исходные файлы\exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AST\AST.cpp">
+      <Filter>Исходные файлы\AST</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AST\Statement.cpp">
+      <Filter>Исходные файлы\AST</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\parser\exceptions\LexerExceptions.hpp">
-      <Filter>Файлы заголовков</Filter>
+    <ClInclude Include="src\lexer\Lexer.hpp">
+      <Filter>Исходные файлы\lexer</Filter>
     </ClInclude>
-    <ClInclude Include="src\parser\Lexer.hpp">
-      <Filter>Файлы заголовков</Filter>
+    <ClInclude Include="src\lexer\Token.hpp">
+      <Filter>Исходные файлы\lexer</Filter>
     </ClInclude>
-    <ClInclude Include="src\parser\Token.hpp">
-      <Filter>Файлы заголовков</Filter>
+    <ClInclude Include="src\lexer\TokenType.hpp">
+      <Filter>Исходные файлы\lexer</Filter>
     </ClInclude>
-    <ClInclude Include="src\parser\TokenType.hpp">
-      <Filter>Файлы заголовков</Filter>
+    <ClInclude Include="src\exceptions\Error.hpp">
+      <Filter>Исходные файлы\exceptions</Filter>
     </ClInclude>
-    <ClInclude Include="src\parser\exceptions\Error.hpp">
-      <Filter>Файлы заголовков</Filter>
+    <ClInclude Include="src\exceptions\LexerExceptions.hpp">
+      <Filter>Исходные файлы\exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AST\AST.hpp">
+      <Filter>Исходные файлы\AST</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AST\Statement.hpp">
+      <Filter>Исходные файлы\AST</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="src\tests\main.ppl">
-      <Filter>Файлы ресурсов</Filter>
+      <Filter>Исходные файлы</Filter>
     </None>
   </ItemGroup>
 </Project>

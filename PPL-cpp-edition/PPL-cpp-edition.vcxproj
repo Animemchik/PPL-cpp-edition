@@ -129,17 +129,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\AST\AST.cpp" />
+    <ClCompile Include="src\AST\Statement.cpp" />
     <ClCompile Include="src\main.cpp" />
-    <ClCompile Include="src\parser\exceptions\Error.cpp" />
-    <ClCompile Include="src\parser\exceptions\LexerExceptions.cpp" />
-    <ClCompile Include="src\parser\Lexer.cpp" />
+    <ClCompile Include="src\exceptions\Error.cpp" />
+    <ClCompile Include="src\exceptions\LexerExceptions.cpp" />
+    <ClCompile Include="src\lexer\Lexer.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\parser\exceptions\Error.hpp" />
-    <ClInclude Include="src\parser\exceptions\LexerExceptions.hpp" />
-    <ClInclude Include="src\parser\Lexer.hpp" />
-    <ClInclude Include="src\parser\Token.hpp" />
-    <ClInclude Include="src\parser\TokenType.hpp" />
+    <ClInclude Include="src\AST\AST.hpp" />
+    <ClInclude Include="src\AST\Statement.hpp" />
+    <ClInclude Include="src\exceptions\Error.hpp" />
+    <ClInclude Include="src\exceptions\LexerExceptions.hpp" />
+    <ClInclude Include="src\lexer\Lexer.hpp" />
+    <ClInclude Include="src\lexer\Token.hpp" />
+    <ClInclude Include="src\lexer\TokenType.hpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="src\tests\main.ppl" />
