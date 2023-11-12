@@ -18,6 +18,8 @@ enum TokenType {
 	PROTECTED,
 	FINAL,
 	STATIC,
+	PRINT,			// print()
+	PRINTLN,		// println()
 	FUNC,           // func
 	CLASS,          // class
 	NEW,			// new Class()

@@ -1,7 +1,7 @@
 #include <sstream>
 #include <iostream>
 #include "Lexer.hpp"
-#include "exceptions/LexerExceptions.hpp"
+#include "../exceptions/LexerExceptions.hpp"
 
 string Lexer::OPERATOR_CHARS = "+-*/%()=<>[]{},!&|^~?:;";
 
@@ -77,6 +77,8 @@ map<string, TokenType> Lexer::KEYWORDS = {
 	{"protect",		PROTECTED},
 	{"final",		FINAL},
 	{"static",		STATIC},
+	{"println",     PRINTLN},
+	{"print",       PRINT},
 	{"func",		FUNC},
 	{"class",		CLASS},
 	{"new",			NEW},

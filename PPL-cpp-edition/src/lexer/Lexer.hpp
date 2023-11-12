@@ -2,7 +2,7 @@
 #include <stdint.h>
 #include "TokenType.hpp"
 #include "Token.hpp"
-#include "exceptions/Error.hpp"
+#include "../exceptions/Error.hpp"
 #include <string>
 #include <map>
 #include <vector>
